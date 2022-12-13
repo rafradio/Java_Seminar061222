@@ -27,6 +27,8 @@ public class Addclass {
         Random random = new Random();
         Integer i = random.nextInt(8);  
         Integer j = random.nextInt(8);
+        // Integer i = 0;  
+        // Integer j = 5;
         
         this.chessBoard.put(this.chessBoardForMoving[i][j], "Queen");
         this.queensPosition.add(this.chessBoardForMoving[i][j]);
@@ -61,7 +63,7 @@ public class Addclass {
             initVert = 7;
             initHorizont -= 1;
         }
-        System.out.println("Новая позиция!" + queenPos);
+        // System.out.println("Новая позиция!" + queenPos);
         this.chessBoard.put(queenPos, "Queen");
         this.queensPosition.add(queenPos);
        
