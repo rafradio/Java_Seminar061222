@@ -6,6 +6,10 @@ public class Ferzprog {
         obj.findNewPositions();
         obj.findNewPositions();
         obj.findNewPositions();
+        obj.findNewPositions();
+        obj.findNewPositions();
+        obj.findNewPositions();
+        obj.findNewPositions();
         System.out.println("Королевы расположатся в следующих позициях: ");
         System.out.println(obj.queensPosition);
     }
